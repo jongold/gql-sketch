@@ -1,0 +1,31 @@
+{
+  "name": "gql-sketch",
+  "version": "0.0.0",
+  "description": "graphql in sketch",
+  "main": "lib/index.js",
+  "repository": "http://github.com/jongold/gql-sketch",
+  "author": "Jon Gold <hello@designedbygold.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --ignore __tests__/*",
+    "clean": "rimraf lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-airbnb": "^2.2.3",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.2",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "sketchfetch": "^1.0.2"
+  }
+}
