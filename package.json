@@ -26,6 +26,6 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "sketchfetch": "^1.0.2"
+    "sketch-module-fetch-polyfill": "^0.1.1"
   }
 }
