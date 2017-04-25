@@ -1,6 +1,6 @@
 {
   "name": "gql-sketch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "graphql in sketch",
   "main": "lib/index.js",
   "repository": "http://github.com/jongold/gql-sketch",
