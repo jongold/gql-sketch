@@ -854,6 +854,10 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
+cocoascript-class@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/cocoascript-class/-/cocoascript-class-0.1.2.tgz#dab25f20389946d9986c1812b88ac3783eec42d3"
+
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
@@ -1833,10 +1837,6 @@ minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-mocha-js-delegate@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/mocha-js-delegate/-/mocha-js-delegate-0.1.1.tgz#322a4d2aa9fdf2c696d50deaaa013526b759ccf6"
-
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -2256,11 +2256,11 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-sketch-module-fetch-polyfill@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/sketch-module-fetch-polyfill/-/sketch-module-fetch-polyfill-0.1.1.tgz#b5cf2e2045c7bc3b26e3b1d0a226d2c5dca272fd"
+sketch-module-fetch-polyfill@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/sketch-module-fetch-polyfill/-/sketch-module-fetch-polyfill-0.1.4.tgz#04707b73a606231b85e9a914d90cd8d2056d0846"
   dependencies:
-    mocha-js-delegate "^0.1.1"
+    cocoascript-class "^0.1.2"
 
 slash@^1.0.0:
   version "1.0.0"
